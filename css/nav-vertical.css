@@ -1,0 +1,53 @@
+#menu1{
+list-style: none;
+display: flex;
+justify-content: space-around;
+position: relative !important;
+z-index: 1;
+}
+
+#menu1  .li1  a{
+display: block;
+padding: .5em 0;
+text-decoration: none;
+}
+.menu-horizontal{
+   list-style: none;
+   position: absolute ;
+   display: none;
+   width: 200px;
+   background-color: black;
+   margin-left:-1em;
+
+}
+
+#menu1 .li1:hover{
+background-color:rgb(20, 20, 20);
+
+}
+#menu1 li:hover .menu-horizontal{
+display: block;
+}
+
+
+.menu-horizontal .li1:hover{
+   background-color: black;
+  
+} 
+.menu-horizontal li a{
+   display: block;
+    color: white;
+
+   padding: 15px 15px 15px;
+}
+.li1 a{
+   margin-top:.5em;
+}
+
+@media (max-width: 850px) {
+
+ .menu-horizontal .li1 a{
+display: none;
+
+}
+}

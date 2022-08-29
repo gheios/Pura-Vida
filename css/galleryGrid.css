@@ -1,0 +1,53 @@
+
+.image-grid div {
+   width: 25%;
+   height: 240px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
+ 
+ .image-grid {
+   display: flex;
+   flex-wrap: wrap;
+
+ }
+ 
+ .image01 { background-image: url('../img/imgGaleria/deport_1.jpeg'); }
+ .image02 { background-image: url('../img/imgGaleria/deport_2.jpeg'); }
+ .image03 { background-image: url('../img/imgGaleria/deport_3.jpeg'); }
+ .image04 { background-image: url('../img/imgGaleria/deport_4.jpeg'); }
+ .image05 { background-image: url('../img/imgGaleria/deport_5.jpeg'); }
+ .image06 { background-image: url('../img/imgGaleria/deport_6.jpeg'); }
+ .image07 { background-image: url('../img/imgGaleria/deport_7.jpeg'); }
+ .image08 { background-image: url('../img/imgGaleria/deport_8.jpeg'); }
+ .image09 { background-image: url('../img/imgGaleria/deport_9.jpeg'); }
+ .image10 { background-image: url('../img/imgGaleria/deport_10.jpeg'); }
+ .image11 { background-image: url('../img/imgGaleria/deport_11.jpeg'); }
+ .image12 { background-image: url('../img/imgGaleria/deport_12.jpeg'); }
+ 
+ @media screen and (max-width: 400px) {
+   .image-grid {
+     flex-direction: column;
+     flex-wrap: no-wrap;
+   }
+   .image-grid div { width: 100%; }
+ }
+ 
+
+ .video-slide{
+  max-width :500px;
+  max-height:350px;
+ }
+
+ 
+ @media screen and (max-width: 400px) {
+  .video-slide{
+    display: none;
+  }
+}
+@media screen and (max-width: 820px) {
+  .video-slide{
+display: none;
+  }
+}

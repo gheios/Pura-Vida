@@ -1,0 +1,81 @@
+.titulo{
+ text-align: center;
+   margin-bottom: 4rem;
+   font-size: 5rem;
+  
+}
+.diploma{
+   padding-bottom: 1.5rem;
+}
+.diploma-container{
+   width: 70%;
+   margin: 5rem auto;
+   -webkit-box-shadow: -4px 5px 11px 4px rgba(0,0,0,0.49);
+   -moz-box-shadow: -4px 5px 11px 4px rgba(0,0,0,0.49);
+   box-shadow: -4px 5px 11px 4px rgba(0,0,0,0.49);
+   border-radius: 3px;
+}
+.dip{
+width: 90%;
+ margin: 0 auto;
+}
+.dip img{
+object-fit: cover;
+
+}
+.imgDip{
+width: 100%;
+height: auto;
+margin-top: 5%;
+}
+
+.button-container{
+   width: 100%;
+   margin: 4rem auto;
+}
+.button-container .buttonDes{
+   margin: 2rem auto;
+}
+.buttonDes a{
+   text-decoration: none;
+}
+
+/* CSS */
+.buttonDes {
+  align-items: center;
+  background-image:linear-gradient(270deg, #bb63d1 0, #c85cc6 10%, #d356ba 20%, #dc51ad 30%, #e34ca0 40%, #e84993 50%, #ec4786 60%, #ed4878 70%, #ee4a6b 80%, #ec4d5f 90%, #ea5252 100%);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  
+}
+
+.buttonDes:active,
+.buttonDes:hover {
+  outline: 0;
+  font-size: 2rem !important;
+  
+}
+
+@media (min-width: 768px) {
+  .buttonDes {
+    font-size: 24px;
+    min-width: 196px;
+  }
+
+}
